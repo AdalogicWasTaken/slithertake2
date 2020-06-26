@@ -16,15 +16,6 @@ from discord.ext.commands import Bot, has_permissions, CheckFailure
 
 dictionary=PyDictionary()
 
-def timeout():
-    future = datetime.now() + timedelta(seconds=20)
-    while True:
-        if datetime.now() == future:
-            channel = int(726218132032585749)
-            await channel.send("Yikes")
-        else:
-            pass
-
 TOKEN = 'NzIyNTc1NzAwNzMyNjc0MTEx.Xup5YQ.84dqnKZngB1g7Suak_w1GHIvVEc'
 
 bot = commands.Bot(command_prefix ='s.')
