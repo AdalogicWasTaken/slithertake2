@@ -1,1 +1,1 @@
-web gunicorn slithertake2:app
+web gunicorn app:app
