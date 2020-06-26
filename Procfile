@@ -1,1 +1,1 @@
-web gunicorn slither.py:application
+web gunicorn slither.py:application --timeout 31536000
