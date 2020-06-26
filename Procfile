@@ -1,1 +1,1 @@
-web gunicorn assimilate:app
+web gunicorn slithertake2:app
