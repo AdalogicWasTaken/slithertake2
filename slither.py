@@ -35,7 +35,6 @@ async def on_ready():
     with open(r'C:\Users\Cindyarta\PycharmProjects\assimilate\suggestions.yaml', 'w') as file:
         yaml.dump(['suggestions'], file)
     await bot.change_presence(activity=discord.Game(name="s.commands"))
-    timeout()
     for guild in bot.guilds:
         break
 
