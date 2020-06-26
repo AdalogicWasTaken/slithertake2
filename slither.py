@@ -16,6 +16,15 @@ from discord.ext.commands import Bot, has_permissions, CheckFailure
 
 dictionary=PyDictionary()
 
+def timeout():
+    future = datetime.now() + timedelta(seconds=20)
+    while True:
+        if datetime.now() == future:
+            channel = int(726218132032585749)
+            await channel.send("Yikes")
+        else:
+            pass
+
 TOKEN = 'NzIyNTc1NzAwNzMyNjc0MTEx.Xup5YQ.84dqnKZngB1g7Suak_w1GHIvVEc'
 
 bot = commands.Bot(command_prefix ='s.')
@@ -35,6 +44,7 @@ async def on_ready():
     with open(r'C:\Users\Cindyarta\PycharmProjects\assimilate\suggestions.yaml', 'w') as file:
         yaml.dump(['suggestions'], file)
     await bot.change_presence(activity=discord.Game(name="s.commands"))
+    timeout()
     for guild in bot.guilds:
         break
 
