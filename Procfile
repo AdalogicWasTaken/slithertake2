@@ -1,1 +1,1 @@
-web gunicorn slithertake2.py --log-file -
+web gunicorn assimilate.py:application
