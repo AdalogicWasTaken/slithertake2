@@ -1,1 +1,1 @@
-web gunicorn slither.py:application --timeout 31536000
+worker gunicorn slither.py:application --timeout 31536000
