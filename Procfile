@@ -1,1 +1,1 @@
-web gunicorn assimilate.py:app
+web gunicorn assimilate:app
