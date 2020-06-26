@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (assimilate)" project-jdk-type="Python SDK" />
+  <component name="StickyNotes">
+    <option name="stickyNotes">
+      <list>
+        <SerializedStickyNote>
+          <option name="description" value="role assign commands" />
+        </SerializedStickyNote>
+        <SerializedStickyNote>
+          <option name="archived" value="true" />
+          <option name="description" value="send number of members total/online" />
+        </SerializedStickyNote>
+        <SerializedStickyNote>
+          <option name="archived" value="true" />
+          <option name="description" value="Number of members total/online" />
+        </SerializedStickyNote>
+        <SerializedStickyNote>
+          <option name="archived" value="true" />
+          <option name="description" value="scan command" />
+        </SerializedStickyNote>
+        <SerializedStickyNote>
+          <option name="archived" value="true" />
+          <option name="description" value="reversed() for yaml reading, yaml dump only guild and channel id" />
+        </SerializedStickyNote>
+        <SerializedStickyNote>
+          <option name="archived" value="true" />
+          <option name="description" value="-Reversed() for guilds.yaml reading" />
+        </SerializedStickyNote>
+        <SerializedStickyNote>
+          <option name="archived" value="true" />
+          <option name="description" value="Attachment logging, crocodile spin" />
+        </SerializedStickyNote>
+        <SerializedStickyNote>
+          <option name="archived" value="true" />
+          <option name="description" value="Add logging for message delete and edit" />
+        </SerializedStickyNote>
+      </list>
+    </option>
+  </component>
+</project>
