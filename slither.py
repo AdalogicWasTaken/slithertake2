@@ -16,7 +16,7 @@ from discord.ext.commands import Bot, has_permissions, CheckFailure
 
 dictionary=PyDictionary()
 
-TOKEN = 'NzIyNTc1NzAwNzMyNjc0MTEx.Xup5YQ.84dqnKZngB1g7Suak_w1GHIvVEc'
+TOKEN = 'Hidden for privacy'
 
 bot = commands.Bot(command_prefix ='s.')
 bot.guild_id = 0
